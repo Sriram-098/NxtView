@@ -1,0 +1,29 @@
+body{
+  
+    font-family:"Roboto";
+    }
+    nav{
+      display:flex;
+      justify-content:space-between;
+   
+      margin-top:5px;
+     
+      height:72px;
+      align-items:center;
+    }
+    *{
+      margin:0;
+    }
+    nav ul{
+      display:flex;
+      list-style:none;
+      gap:24px;
+    }
+    button{
+      background-color:red;
+      color:white;
+      height:32px;
+      width:80px;
+      border-radius:6px;
+      border:1px solid #ccc;
+    }
